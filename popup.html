@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>PV-Notes Audio</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css" type="text/css">
+  </head>
+  <body>
+    <div class="header"><img src="./2nd.png"/> <h1>PV-Notes Audio</h1></div>
+    <div id="status"></div>
+    <div id="timeRem"></div>
+    <div class="buttonContainer">
+      <div class="button" id="start">Start Recording</div>
+      <div class="button" id="finish">Save Recording</div>
+      <div class="button" id="cancel">Cancel Recording</div>
+    </div>
+    <div class="notes">After capture is finished, a new tab will be opened automatically for you to
+name and save the file. Please do not close the tab before saving the file!</div>
+    <ul> Hotkeys:
+      <li id="startKey">Ctrl/Command + Shift +   to start capture on current tab</li>
+      <li id="endKey">Ctrl/Command + Shift + X to stop capture on current tab</li>
+    </ul>
+    <p class="extra">Hotkeys may not work if another extension is using the same hotkeys</p>
+    <p class="extra">Currently the max capture time is 20 minutes due to Chrome memory contraints</p>
+    <div class="links">
+      <p id="options">Options</p>
+    </div>
+  </body>
+</html>

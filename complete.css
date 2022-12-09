@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 390px;
+  border-bottom: 2px solid black;
+}
+.div {
+  display: flex;
+  align-items: center;
+}
+
+
+.progress {
+  margin: 50px 20px 10px 20px;
+  font-size: 16px;
+  padding-left: 360px;
+  display: flex;
+}
+
+.notes {
+  margin: 0 20px;
+}
+
+#progressContainer {
+  margin-left: 5px;
+  width: 500px;
+  height: 18px;
+  background-color: lavenderblush;
+}
+
+#encodeProgress {
+  height: 100%;
+  width: 0%;
+  background-color: rgb(0, 0, 0);
+}
+
+#saveCapture {
+  display: none;
+}
+
+.buttonContainer {
+  display: flex;
+  padding-left: 700px;
+}
+
+#status {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.button {
+  align-self: center;
+  padding: 10px;
+  border: 2px solid black;
+  font-size: 16px;
+  background-color: lavenderblush;
+  font-weight: bold;
+  margin: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(7, 124, 220);
+}
+
+#review {
+  color: blue;
+  display: inline;
+  text-decoration: underline;
+  cursor: pointer;
+}
